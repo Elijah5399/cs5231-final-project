@@ -1,0 +1,16 @@
+We provide two binaries, buffer_overflow and use_after_free
+
+// When the input is less than or equal to 10 chars, the binary returns properly
+$ buffer_overflow “AABBCCDDEE”
+// When the input is larger than 10 chars, the buffer overflow occurs
+$ buffer_overflow “AABBCCDDEEFF”
+
+// When you provide true to the binary, the vulnerability will be triggered
+$ use_after_free true
+// When you provide false to the binary, the vulnerability will NOT be triggered
+$ use_after_free false
+
+
+We also provide a vulnerable code (vuln.c). 
+You can use this code as is or edit it to suit your experiment better. 
+Compile the code by running `make` (Makefile is provided).
