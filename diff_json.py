@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-diff_graphs.py
+diff_json.py
 
   • Compare two trace JSON files
   • Identify the first point of divergence
   • Print a side-by-side comparison of instructions around the divergence point in JSON format
 Usage:
-    python3 diff_graphs.py \
+    python3 diff_json.py \
         --base base_trace.json \
         --exploit exploit_trace.json \
         --window 5
