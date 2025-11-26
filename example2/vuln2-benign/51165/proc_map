@@ -1,0 +1,115 @@
+00400000-00401000 r--p 00000000 fc:00 1201785                            /home/ubuntu/Downloads/cs5231-project/vuln-binaries/vuln2
+00401000-00402000 r-xp 00001000 fc:00 1201785                            /home/ubuntu/Downloads/cs5231-project/vuln-binaries/vuln2
+00402000-00403000 r--p 00002000 fc:00 1201785                            /home/ubuntu/Downloads/cs5231-project/vuln-binaries/vuln2
+00403000-00405000 rw-p 00002000 fc:00 1201785                            /home/ubuntu/Downloads/cs5231-project/vuln-binaries/vuln2
+00405000-00406000 ---p 00000000 00:00 0 
+00406000-00806000 rw-p 00000000 00:00 0 
+46695000-4669d000 rw-p 00000000 00:00 0 
+4669d000-4669e000 ---p 00000000 00:00 0 
+4669e000-466a3000 rw-p 00000000 00:00 0 
+466a3000-466a6000 ---p 00000000 00:00 0 
+466a6000-466a7000 rwxp 00000000 00:00 0 
+466a7000-466a8000 r-xp 00000000 00:00 0 
+466a8000-466a9000 rwxp 00000000 00:00 0 
+466a9000-466ad000 ---p 00000000 00:00 0 
+466ad000-466ae000 rwxp 00000000 00:00 0 
+466ae000-466bd000 ---p 00000000 00:00 0 
+466bd000-466be000 rwxp 00000000 00:00 0 
+466be000-466cd000 ---p 00000000 00:00 0 
+466cd000-466ce000 rwxp 00000000 00:00 0 
+466ce000-466d0000 ---p 00000000 00:00 0 
+466d0000-466d1000 rwxp 00000000 00:00 0 
+466d1000-466d3000 ---p 00000000 00:00 0 
+466d3000-466d4000 rw-p 00000000 00:00 0 
+466d4000-72000000 ---p 00000000 00:00 0 
+72000000-72003000 r--p 00000000 fc:00 1197400                            /home/ubuntu/Downloads/peekaboo/peekaboo_dr/build/libpeekaboo_dr.so
+72003000-72008000 r-xp 00003000 fc:00 1197400                            /home/ubuntu/Downloads/peekaboo/peekaboo_dr/build/libpeekaboo_dr.so
+72008000-72009000 r--p 00008000 fc:00 1197400                            /home/ubuntu/Downloads/peekaboo/peekaboo_dr/build/libpeekaboo_dr.so
+72009000-7200b000 rw-p 00009000 fc:00 1197400                            /home/ubuntu/Downloads/peekaboo/peekaboo_dr/build/libpeekaboo_dr.so
+7200b000-73000000 ---p 00000000 00:00 0 
+73000000-73004000 r--p 00000000 fc:00 1196657                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrmgr.so
+73004000-7300e000 r-xp 00004000 fc:00 1196657                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrmgr.so
+7300e000-73011000 r--p 0000e000 fc:00 1196657                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrmgr.so
+73011000-73013000 rw-p 00010000 fc:00 1196657                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrmgr.so
+73013000-75000000 ---p 00000000 00:00 0 
+75000000-75002000 r--p 00000000 fc:00 1196677                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrutil.so
+75002000-75004000 r-xp 00002000 fc:00 1196677                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrutil.so
+75004000-75005000 r--p 00004000 fc:00 1196677                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrutil.so
+75005000-75007000 rw-p 00004000 fc:00 1196677                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrutil.so
+75007000-77000000 ---p 00000000 00:00 0 
+77000000-77004000 r--p 00000000 fc:00 1196700                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrx.so
+77004000-7700c000 r-xp 00004000 fc:00 1196700                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrx.so
+7700c000-7700e000 r--p 0000c000 fc:00 1196700                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrx.so
+7700e000-77010000 rw-p 0000d000 fc:00 1196700                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrx.so
+77010000-78000000 ---p 00000000 00:00 0 
+78000000-78003000 r--p 00000000 fc:00 1196682                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrreg.so
+78003000-7800a000 r-xp 00003000 fc:00 1196682                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrreg.so
+7800a000-7800c000 r--p 0000a000 fc:00 1196682                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrreg.so
+7800c000-7800e000 rw-p 0000b000 fc:00 1196682                            /home/ubuntu/Downloads/dynamicrio2/ext/lib64/release/libdrreg.so
+7800e000-86695000 ---p 00000000 00:00 0 
+7ffdf6ccc000-7ffdf75ec000 rw-p 00000000 00:00 0 
+7ffdf75ec000-7ffdf75ed000 r--p 00000000 00:00 0 
+7ffdf75ed000-7ffdf7615000 r--p 00000000 fc:00 3161428                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffdf7615000-7ffdf779d000 r-xp 00028000 fc:00 3161428                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffdf779d000-7ffdf77ec000 r--p 001b0000 fc:00 3161428                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffdf77ec000-7ffdf77f2000 rw-p 001fe000 fc:00 3161428                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffdf77f2000-7ffdf77ff000 rw-p 00000000 00:00 0 
+7ffdf77ff000-7ffdf7800000 ---p 00000000 00:00 0 
+7ffdf7bff000-7ffdf7c3f000 rw-p 00000000 00:00 0 
+7ffdf7c3f000-7ffdf7c40000 ---p 00000000 00:00 0 
+7ffdf7c40000-7ffdf7c46000 rw-p 00000000 00:00 0 
+7ffdf7c46000-7ffdf7c48000 ---p 00000000 00:00 0 
+7ffdf7c48000-7ffdf7c49000 rw-p 00000000 00:00 0 
+7ffdf7c49000-7ffdf7c50000 ---p 00000000 00:00 0 
+7ffdf7c50000-7ffdf7c56000 rw-p 00000000 00:00 0 
+7ffdf7c56000-7ffdf7c58000 ---p 00000000 00:00 0 
+7ffdf7c58000-7ffdf7c70000 rw-p 00000000 00:00 0 
+7ffdf7c70000-7ffdf7c72000 ---p 00000000 00:00 0 
+7ffdf7c72000-7ffdf7c80000 rw-p 00000000 00:00 0 
+7ffdf7c80000-7ffdf7c82000 ---p 00000000 00:00 0 
+7ffdf7c82000-7ffdf7c85000 rw-p 00000000 00:00 0 
+7ffdf7c85000-7ffdf7c90000 ---p 00000000 00:00 0 
+7ffdf7c90000-7ffdf7c9c000 rw-p 00000000 00:00 0 
+7ffdf7c9c000-7ffdf7c9e000 ---p 00000000 00:00 0 
+7ffdf7c9e000-7ffdf7c9f000 rw-p 00000000 00:00 0 
+7ffdf7c9f000-7ffdf7ca1000 ---p 00000000 00:00 0 
+7ffdf7ca1000-7ffdf7ca3000 rw-p 00000000 00:00 0 
+7ffdf7ca3000-7ffdf7ca5000 ---p 00000000 00:00 0 
+7ffdf7ca5000-7ffdf7cb3000 rw-p 00000000 00:00 0 
+7ffdf7cb3000-7ffdf7cb5000 ---p 00000000 00:00 0 
+7ffdf7cb5000-7ffdf7cb8000 rw-p 00000000 00:00 0 
+7ffdf7cb8000-7ffdf7cbd000 ---p 00000000 00:00 0 
+7ffdf7cbd000-7ffdf7cbf000 rw-p 00000000 00:00 0 
+7ffdf7cbf000-7ffdf7cc2000 ---p 00000000 00:00 0 
+7ffdf7cc2000-7ffdf7cc3000 rw-p 00000000 00:00 0 
+7ffdf7cc3000-7ffdf7cc7000 ---p 00000000 00:00 0 
+7ffdf7cc7000-7ffdf7ccf000 rw-p 00000000 00:00 0 
+7ffdf7ccf000-7ffdf7cd1000 ---p 00000000 00:00 0 
+7ffdf7cd1000-7ffdf7ce9000 rw-p 00000000 00:00 0 
+7ffdf7ce9000-7ffff7c00000 ---p 00000000 00:00 0 
+7ffff7c00000-7ffff7c4f000 r--p 00000000 fc:00 1196874                    /home/ubuntu/Downloads/dynamicrio2/lib64/release/libdynamorio.so
+7ffff7c4f000-7ffff7d44000 r-xp 0004f000 fc:00 1196874                    /home/ubuntu/Downloads/dynamicrio2/lib64/release/libdynamorio.so
+7ffff7d44000-7ffff7d90000 r--p 00144000 fc:00 1196874                    /home/ubuntu/Downloads/dynamicrio2/lib64/release/libdynamorio.so
+7ffff7d90000-7ffff7e03000 rw-p 0018f000 fc:00 1196874                    /home/ubuntu/Downloads/dynamicrio2/lib64/release/libdynamorio.so
+7ffff7e03000-7ffff7e39000 rw-p 00000000 00:00 0 
+7ffff7f24000-7ffff7f2c000 rw-p 00000000 00:00 0 
+7ffff7f2c000-7ffff7f2d000 r--p 00000000 00:00 0 
+7ffff7f2d000-7ffff7f6d000 rw-p 00000000 00:00 0 
+7ffff7f6d000-7ffff7f6e000 r--p 00000000 00:00 0 
+7ffff7f6e000-7ffff7f7e000 rw-p 00000000 00:00 0 
+7ffff7f7e000-7ffff7f7f000 r--p 00000000 00:00 0 
+7ffff7f7f000-7ffff7f80000 r--p 00000000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7f80000-7ffff7fab000 r-xp 00001000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fab000-7ffff7fb5000 r--p 0002c000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fb5000-7ffff7fb9000 rw-p 00036000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fb9000-7ffff7fba000 ---p 00000000 00:00 0 
+7ffff7fba000-7ffff7fbb000 r--p 00000000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fbb000-7ffff7fe6000 r-xp 00001000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fe6000-7ffff7ff0000 r--p 0002c000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7ff0000-7ffff7ff4000 rw-p 00036000 fc:00 3161425                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7ff4000-7ffff7ff5000 ---p 00000000 00:00 0 
+7ffff7ff9000-7ffff7ffb000 r--p 00000000 00:00 0                          [vvar]
+7ffff7ffb000-7ffff7ffd000 r--p 00000000 00:00 0                          [vvar_vclock]
+7ffff7ffd000-7ffff7fff000 r-xp 00000000 00:00 0                          [vdso]
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
