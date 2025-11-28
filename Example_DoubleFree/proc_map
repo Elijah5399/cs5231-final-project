@@ -1,0 +1,119 @@
+00400000-00401000 r--p 00000000 00:34 283                                /media/sf_Shared_Folder/CS5231/vuln-binaries/double_free
+00401000-00402000 r-xp 00001000 00:34 283                                /media/sf_Shared_Folder/CS5231/vuln-binaries/double_free
+00402000-00403000 r--p 00002000 00:34 283                                /media/sf_Shared_Folder/CS5231/vuln-binaries/double_free
+00403000-00405000 rw-p 00002000 00:34 283                                /media/sf_Shared_Folder/CS5231/vuln-binaries/double_free
+00405000-00406000 ---p 00000000 00:00 0 
+00406000-00806000 rw-p 00000000 00:00 0 
+4ab9e000-4aba6000 rw-p 00000000 00:00 0 
+4aba6000-4aba7000 ---p 00000000 00:00 0 
+4aba7000-4abac000 rw-p 00000000 00:00 0 
+4abac000-4abaf000 ---p 00000000 00:00 0 
+4abaf000-4abb0000 rwxp 00000000 00:00 0 
+4abb0000-4abb1000 r-xp 00000000 00:00 0 
+4abb1000-4abb2000 rwxp 00000000 00:00 0 
+4abb2000-4abb6000 ---p 00000000 00:00 0 
+4abb6000-4abb7000 rwxp 00000000 00:00 0 
+4abb7000-4abc6000 ---p 00000000 00:00 0 
+4abc6000-4abc7000 rwxp 00000000 00:00 0 
+4abc7000-4abd6000 ---p 00000000 00:00 0 
+4abd6000-4abd7000 rwxp 00000000 00:00 0 
+4abd7000-4abd9000 ---p 00000000 00:00 0 
+4abd9000-4abda000 rwxp 00000000 00:00 0 
+4abda000-4abdc000 ---p 00000000 00:00 0 
+4abdc000-4abdd000 rw-p 00000000 00:00 0 
+4abdd000-72000000 ---p 00000000 00:00 0 
+72000000-72003000 r--p 00000000 00:34 33                                 /media/sf_Shared_Folder/CS5231/libpeekaboo_dr.so
+72003000-72008000 r-xp 00003000 00:34 33                                 /media/sf_Shared_Folder/CS5231/libpeekaboo_dr.so
+72008000-72009000 r--p 00008000 00:34 33                                 /media/sf_Shared_Folder/CS5231/libpeekaboo_dr.so
+72009000-7200a000 ---p 00000000 00:00 0 
+7200a000-7200c000 rw-p 00009000 00:34 33                                 /media/sf_Shared_Folder/CS5231/libpeekaboo_dr.so
+7200c000-73000000 ---p 00000000 00:00 0 
+73000000-73004000 r--p 00000000 00:34 136                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrmgr.so
+73004000-7300e000 r-xp 00004000 00:34 136                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrmgr.so
+7300e000-73011000 r--p 0000e000 00:34 136                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrmgr.so
+73011000-73013000 rw-p 00010000 00:34 136                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrmgr.so
+73013000-75000000 ---p 00000000 00:00 0 
+75000000-75002000 r--p 00000000 00:34 135                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrutil.so
+75002000-75004000 r-xp 00002000 00:34 135                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrutil.so
+75004000-75005000 r--p 00004000 00:34 135                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrutil.so
+75005000-75007000 rw-p 00004000 00:34 135                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrutil.so
+75007000-77000000 ---p 00000000 00:00 0 
+77000000-77004000 r--p 00000000 00:34 137                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrx.so
+77004000-7700c000 r-xp 00004000 00:34 137                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrx.so
+7700c000-7700e000 r--p 0000c000 00:34 137                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrx.so
+7700e000-77010000 rw-p 0000d000 00:34 137                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrx.so
+77010000-78000000 ---p 00000000 00:00 0 
+78000000-78003000 r--p 00000000 00:34 138                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrreg.so
+78003000-7800a000 r-xp 00003000 00:34 138                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrreg.so
+7800a000-7800c000 r--p 0000a000 00:34 138                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrreg.so
+7800c000-7800e000 rw-p 0000b000 00:34 138                                /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/ext/lib64/release/libdrreg.so
+7800e000-8ab9e000 ---p 00000000 00:00 0 
+7ffdf7085000-7ffdf79a5000 rw-p 00000000 00:00 0 
+7ffdf79a5000-7ffdf79a6000 r--p 00000000 00:00 0 
+7ffdf79a6000-7ffdf79c8000 r--p 00000000 08:05 1312907                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7ffdf79c8000-7ffdf7b40000 r-xp 00022000 08:05 1312907                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7ffdf7b40000-7ffdf7b8e000 r--p 0019a000 08:05 1312907                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7ffdf7b8e000-7ffdf7b94000 rw-p 001e7000 08:05 1312907                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7ffdf7b94000-7ffdf7b98000 rw-p 00000000 00:00 0 
+7ffdf7b98000-7ffdf7b99000 ---p 00000000 00:00 0 
+7ffdf7cfd000-7ffdf7d05000 rw-p 00000000 00:00 0 
+7ffdf7d05000-7ffdf7d06000 r--p 00000000 00:00 0 
+7ffdf7d06000-7ffdf7d46000 rw-p 00000000 00:00 0 
+7ffdf7d46000-7ffdf7d47000 r--p 00000000 00:00 0 
+7ffdf7d47000-7ffdf7d57000 rw-p 00000000 00:00 0 
+7ffdf7d57000-7ffdf7d58000 r--p 00000000 00:00 0 
+7ffdf7d58000-7ffdf7d59000 r--p 00000000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffdf7d59000-7ffdf7d7c000 r-xp 00001000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffdf7d7c000-7ffdf7d84000 r--p 00024000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffdf7d84000-7ffdf7d85000 ---p 00000000 00:00 0 
+7ffdf7d85000-7ffdf7d87000 rw-p 0002c000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffdf7d87000-7ffdf7d88000 rw-p 00000000 00:00 0 
+7ffdf7d88000-7ffdf7d89000 ---p 00000000 00:00 0 
+7ffdf7d89000-7ffdf7dc9000 rw-p 00000000 00:00 0 
+7ffdf7dc9000-7ffdf7dca000 ---p 00000000 00:00 0 
+7ffdf7dca000-7ffdf7dd0000 rw-p 00000000 00:00 0 
+7ffdf7dd0000-7ffdf7dd2000 ---p 00000000 00:00 0 
+7ffdf7dd2000-7ffdf7dd3000 rw-p 00000000 00:00 0 
+7ffdf7dd3000-7ffdf7dda000 ---p 00000000 00:00 0 
+7ffdf7dda000-7ffdf7de0000 rw-p 00000000 00:00 0 
+7ffdf7de0000-7ffdf7de2000 ---p 00000000 00:00 0 
+7ffdf7de2000-7ffdf7dfa000 rw-p 00000000 00:00 0 
+7ffdf7dfa000-7ffdf7dfc000 ---p 00000000 00:00 0 
+7ffdf7dfc000-7ffdf7e0a000 rw-p 00000000 00:00 0 
+7ffdf7e0a000-7ffdf7e0c000 ---p 00000000 00:00 0 
+7ffdf7e0c000-7ffdf7e0f000 rw-p 00000000 00:00 0 
+7ffdf7e0f000-7ffdf7e1a000 ---p 00000000 00:00 0 
+7ffdf7e1a000-7ffdf7e26000 rw-p 00000000 00:00 0 
+7ffdf7e26000-7ffdf7e28000 ---p 00000000 00:00 0 
+7ffdf7e28000-7ffdf7e29000 rw-p 00000000 00:00 0 
+7ffdf7e29000-7ffdf7e2b000 ---p 00000000 00:00 0 
+7ffdf7e2b000-7ffdf7e2d000 rw-p 00000000 00:00 0 
+7ffdf7e2d000-7ffdf7e2f000 ---p 00000000 00:00 0 
+7ffdf7e2f000-7ffdf7e3d000 rw-p 00000000 00:00 0 
+7ffdf7e3d000-7ffdf7e3f000 ---p 00000000 00:00 0 
+7ffdf7e3f000-7ffdf7e42000 rw-p 00000000 00:00 0 
+7ffdf7e42000-7ffdf7e47000 ---p 00000000 00:00 0 
+7ffdf7e47000-7ffdf7e49000 rw-p 00000000 00:00 0 
+7ffdf7e49000-7ffdf7e4c000 ---p 00000000 00:00 0 
+7ffdf7e4c000-7ffdf7e4d000 rw-p 00000000 00:00 0 
+7ffdf7e4d000-7ffdf7e51000 ---p 00000000 00:00 0 
+7ffdf7e51000-7ffdf7e59000 rw-p 00000000 00:00 0 
+7ffdf7e59000-7ffdf7e5b000 ---p 00000000 00:00 0 
+7ffdf7e5b000-7ffdf7e73000 rw-p 00000000 00:00 0 
+7ffdf7e73000-7ffff7d8a000 ---p 00000000 00:00 0 
+7ffff7d8a000-7ffff7d8b000 r--p 00000000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffff7d8b000-7ffff7dae000 r-xp 00001000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffff7dae000-7ffff7db6000 r--p 00024000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffff7db6000-7ffff7db7000 ---p 00000000 00:00 0 
+7ffff7db7000-7ffff7db9000 rw-p 0002c000 08:05 1312888                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7ffff7db9000-7ffff7dba000 rw-p 00000000 00:00 0 
+7ffff7dba000-7ffff7dbb000 ---p 00000000 00:00 0 
+7ffff7dc0000-7ffff7dc4000 r--p 00000000 00:00 0                          [vvar]
+7ffff7dc4000-7ffff7dc6000 r-xp 00000000 00:00 0                          [vdso]
+7ffff7dc6000-7ffff7e15000 r--p 00000000 00:34 132                        /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/lib64/release/libdynamorio.so
+7ffff7e15000-7ffff7f0a000 r-xp 0004f000 00:34 132                        /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/lib64/release/libdynamorio.so
+7ffff7f0a000-7ffff7f56000 r--p 00144000 00:34 132                        /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/lib64/release/libdynamorio.so
+7ffff7f56000-7ffff7fc9000 rw-p 0018f000 00:34 132                        /media/sf_Shared_Folder/CS5231/DynamoRIO-Linux-11.3.0-1/lib64/release/libdynamorio.so
+7ffff7fc9000-7ffff7fff000 rw-p 00000000 00:00 0                          [heap]
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
