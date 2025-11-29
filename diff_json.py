@@ -155,7 +155,7 @@ def is_free_call(entry, trace=None, step_idx=None, keys=None, heap_ranges=None, 
 
     b = [x.lower() for x in instr_bytes]
 
-    # CALL rel32: E8 xx xx xx xx
+    # CALL rel32: E8 xx xx xx xx 
     if len(b) == 5 and b[0] == "e8":
         pass
     # CALL qword ptr: FF 15 xx xx xx xx
@@ -266,7 +266,7 @@ def forward_trace_uaf(exploit, divergence_step, heap_ranges):
 
             # check against all freed pointers
             for fp in freed_ptrs:
-                if fp <= addr <= fp + 0x20:   # small range to catch struct accesses
+                if fp <= addr <= fp:   # small range to catch struct accesses
                     uaf_events.append({
                         "freed_ptr": fp,
                         "access_step": step,
@@ -298,7 +298,7 @@ def main():
     parser.add_argument("--base", required=True)
     parser.add_argument("--exploit", required=True)
     parser.add_argument("--procmap", required=True, help="Procmap file for heap ranges")
-    parser.add_argument("--window", type=int, default=1)
+    parser.add_argument("--window", type=int, default=5)
     args = parser.parse_args()
 
     base = load_trace(args.base)
@@ -338,14 +338,13 @@ def main():
             for ev in events["UAF"]:
                 print(f"- Freed ptr:       {hex(ev['freed_ptr'])}")
                 print(f"  UAF access step: {ev['access_step']}")
-                print(f"  Address accessed: {ev['access_addr']}")
                 print(f"  Instruction:       {ev['instr_addr']}\n")
                 
         if "DOUBLE_FREE" in events:
             print("=== DOUBLE FREE Events ===")
             for ev in events["DOUBLE_FREE"]:
                 print(f"- Freed ptr: {hex(ev['freed_ptr'])}")
-                print(f"  Step:      {ev['step']}")
+                print(f"  Second freed Step:      {ev['step']}")
                 print(f"  Instruction: {ev['instr_addr']}\n")
  
 
